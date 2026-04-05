@@ -74,7 +74,7 @@ Client → EC2 (Nginx + PHP) → VPC Peering → RDS MySQL (Private) → Respons
 
 * `index.php` – Application logic
 * `database.sql` – DB schema
-* `snapshots/` – Deployment proof
+* `snapshots` – Deployment proof
 
 ---
 ## 📸 Snapshots Include
