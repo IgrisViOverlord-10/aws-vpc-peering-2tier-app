@@ -81,8 +81,8 @@ Client → EC2 (Nginx + PHP) → VPC Peering → RDS MySQL (Private) → Respons
 
 *(Snapshots.pdf contains the following in order)*
 
-1. Web VPC configuration (public subnet setup)
-2. DB VPC configuration (private subnet setup)
+1. Web VPC configuration
+2. DB VPC configuration
 3. EC2 instance (Web Server) details
 4. RDS MySQL instance (private, no public access)
 5. VPC Peering connection (Requester & Acceptor)
@@ -90,7 +90,8 @@ Client → EC2 (Nginx + PHP) → VPC Peering → RDS MySQL (Private) → Respons
    * EC2 (SSH, HTTP)
    * RDS (MySQL from Web VPC)
 7. Database and table creation (MySQL)
-8. Final web application output
+8. CRUD operations performed (Insert, Update, Delete verification)
+9. Final web application output
 
 ---
 
